@@ -1,11 +1,8 @@
-import java.util.Scanner;
 public class hitungkembalian {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         double harga,jumlah,total,bayar,kembalian;
         harga = 28000.0;
-        System.out.print("Masukkan jumlah telur yg akan dibeli (kg): ")
-        jumlah = scanner.nextDouble();
+        jumlah = 2.5;
         total = harga * jumlah;
         bayar = 100000.0;
         kembalian = bayar - total;
